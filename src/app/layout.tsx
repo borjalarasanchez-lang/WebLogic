@@ -29,11 +29,10 @@ export default function RootLayout({
   return (
     <html lang="es" className="dark scroll-smooth">
       <head>
-        <Script 
+        <script 
           async 
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5905230385471973" 
           crossOrigin="anonymous"
-          strategy="afterInteractive"
         />
       </head>
       <body
