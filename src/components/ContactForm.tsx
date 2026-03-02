@@ -57,10 +57,9 @@ export function ContactForm() {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "YOUR_ACCESS_KEY_HERE", // Reemplazar con clave real si está disponible
+          access_key: "fdbd3f29-0177-45d9-9cec-cc49892556af",
           ...formData,
           subject: "Nueva Solicitud de Diagnóstico - WebLogic",
-          to_email: "borjalarasanchez@gmail.com"
         }),
       });
 
